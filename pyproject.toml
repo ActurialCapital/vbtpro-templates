@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vectorbtpro-templates"
+version = "0.1.0"
+description = "VectorBT PRO Templates"
+authors = ["ActurialCapital"]
+license = "MIT"
+readme = "README.md"
+packages = [ {include = "vectorbtpro_templates"} ]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
